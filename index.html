@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mahi Sonal — B.Tech Computer Science and Engineering student at SRM Institute of Science and Technology, graduating in 2027.">
+  <title>Mahi Sonal | Computer Science Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Mahi home">Mahi<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#certifications">Certifications</a>
+        <a class="nav-contact" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE STUDENT</p>
+        <h1>Turning ideas into<br><span class="gradient-text">working software.</span></h1>
+        <p class="hero-description">Hi, I'm Mahi Sonal, a Computer Science and Engineering student at SRM Institute of Science and Technology, graduating in 2027. I build web and software applications, including computer vision and inventory-management projects.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <span><span class="meta-icon">⌘</span> CSE · SRM IST · Class of 2027</span>
+          <span><span class="meta-icon">⌁</span> Open to learning and opportunities</span>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Decorative code illustration">
+        <div class="visual-glow"></div>
+        <div class="code-window">
+          <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>mahima.js</span><span class="window-lock">⌑</span></div>
+          <div class="code-content">
+            <p><span class="line-no">01</span> <span class="code-purple">const</span> developer = {</p>
+            <p><span class="line-no">02</span> &nbsp; name: <span class="code-green">'Mahima'</span>,</p>
+            <p><span class="line-no">03</span> &nbsp; focus: <span class="code-green">'Building'</span>,</p>
+            <p><span class="line-no">04</span> &nbsp; skills: [</p>
+            <p><span class="line-no">05</span> &nbsp; &nbsp; <span class="code-green">'Java'</span>, <span class="code-green">'Python'</span>,</p>
+            <p><span class="line-no">06</span> &nbsp; &nbsp; <span class="code-green">'SQL'</span>, <span class="code-green">'Web'</span></p>
+            <p><span class="line-no">07</span> &nbsp; ],</p>
+            <p><span class="line-no">08</span> &nbsp; mindset: <span class="code-green">'Keep learning'</span></p>
+            <p><span class="line-no">09</span> };</p>
+            <p class="code-comment"><span class="line-no">10</span> // always improving ✦</p>
+          </div>
+        </div>
+        <div class="floating-chip chip-top"><span class="chip-dot"></span> Problem solver</div>
+        <div class="floating-chip chip-bottom"><span class="chip-symbol">✳</span> Learn · Build · Improve</div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container section-grid">
+        <div>
+          <p class="eyebrow">01 / ABOUT</p>
+          <h2>A little about <span class="gradient-text">me.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p class="large-copy">I'm a Computer Science student who likes understanding how things work—and then building them.</p>
+          <p>My interests include software development, databases, and applied AI/computer vision. I'm working on strengthening my fundamentals while turning coursework and project ideas into useful, demonstrable applications.</p>
+          <div class="about-facts">
+            <div><span class="fact-label">EDUCATION</span><strong>B.Tech, Computer Science</strong><span>SRM Institute of Science and Technology</span></div>
+            <div><span class="fact-label">CURRENT FOCUS</span><strong>Build and ship</strong><span>Projects, problem-solving and clean code</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <div><p class="eyebrow">02 / TOOLKIT</p><h2>Skills I'm <span class="gradient-text">building.</span></h2></div>
+        <p class="section-intro">A practical toolkit that I'm continuing to develop through coursework and projects.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">01</div><h3>Programming Languages</h3><p>Java · Python · C++ · SQL</p><span class="skill-note">Programming fundamentals and problem-solving</span></article>
+        <article class="skill-card"><div class="skill-icon">02</div><h3>Web Technologies</h3><p>HTML · CSS · JavaScript</p><span class="skill-note">Web interfaces and application workflows</span></article>
+        <article class="skill-card"><div class="skill-icon">03</div><h3>Database</h3><p>MySQL</p><span class="skill-note">Relational data and inventory records</span></article>
+        <article class="skill-card"><div class="skill-icon">04</div><h3>Tools & Technologies</h3><p>FastAPI · OpenCV · YOLO · Supabase</p><span class="skill-note">Also: Microsoft Excel and Tableau</span></article>
+      </div>
+      <div class="subject-strip"><strong>Strong subjects</strong><span>Data Structures & Algorithms</span><span>Object-Oriented Programming</span><span>Database Management Systems</span></div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects with a <span class="gradient-text">purpose.</span></h2></div>
+          <p class="section-intro"></p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-art art-parking"><div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="parking-symbol">P</div><span class="art-label">COMPUTER VISION</span></div>
+            <div class="project-body"><div class="project-topline"><span class="project-type">Jan 2026 – Apr 2026</span><span class="project-number">PROJECT 01</span></div><h3>Smart Parking System</h3><p>Developed a computer vision-based parking management system for vehicle monitoring and parking occupancy detection. Integrated vehicle and parking-space detection with license-plate OCR and a backend connected to Supabase.</p><div class="tag-list"><span>Python</span><span>YOLO</span><span>OpenCV</span><span>OCR</span><span>FastAPI</span><span>Supabase</span></div><div class="project-links"><a href="https://github.com/Mahisoanl" class="text-link" target="_blank" rel="noreferrer">Find project code on GitHub <span>↗</span></a><span class="project-status"></span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-inventory"><div class="database-stack"><i></i><i></i><i></i></div><span class="art-label">DATABASE / WEB APP</span><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i></div></div>
+            <div class="project-body"><div class="project-topline"><span class="project-type">Database application</span><span class="project-number">PROJECT 02</span></div><h3>Petrol Pump Inventory System</h3><p>Built an inventory management application to track fuel stock levels, sales and transaction records, with a web interface for monitoring and updating inventory.</p><div class="tag-list"><span>MySQL</span><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://github.com/Mahisoanl" class="text-link" target="_blank" rel="noreferrer">Find project code on GitHub <span>↗</span></a><span class="project-status"></span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-driver"><div class="face-frame"><span></span><i></i><b></b></div><div class="scan-line"></div><span class="art-label">WEB APPLICATION</span><div class="detection-label">CREATE · EDIT · ATTEMPT</div></div>
+            <div class="project-body"><div class="project-topline"><span class="project-type">Python & web</span><span class="project-number">PROJECT 03</span></div><h3>Quiz Management System</h3><p>Developed a web application for creating, editing and attempting quizzes with automatic scoring. Implemented the quiz workflow without requiring user authentication.</p><div class="tag-list"><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://github.com/Mahisoanl/Mahisonal.github.io" class="text-link" target="_blank" rel="noreferrer">View existing GitHub repository <span>↗</span></a><span class="project-status"></span></div></div>
+          </article>
+        
+    </section>
+
+    <section class="section container" id="experience">
+      <div class="section-heading">
+        <div><p class="eyebrow">04 / EXPERIENCE</p><h2>Learning beyond <span class="gradient-text">class.</span></h2></div>
+      </div>
+      <div class="experience-card">
+        <div class="experience-mark">AI</div>
+        <div class="experience-content"><div class="experience-heading"><div><h3>AI-ML Virtual Internship</h3><p>India Edu Program, Google for Developers, EduSkills & AICTE</p></div><span class="experience-date">Oct 2024 – Dec 2024</span></div><p>Completed a 10-week virtual internship focused on Artificial Intelligence and Machine Learning concepts and applications.</p></div>
+      </div>
+    </section>
+
+    <section class="section container" id="certifications">
+      <div class="section-heading">
+        <div><p class="eyebrow">05 / CERTIFICATIONS</p><h2>Credentials that <span class="gradient-text">back my learning.</span></h2></div>
+        <p class="section-intro"></p>
+      </div>
+      <div class="cert-grid">
+        <article class="cert-card"><span class="cert-mark">AWS</span><div><h3>AWS Certified Cloud Practitioner</h3><p>Amazon Web Services</p><span>Apr 2026 – Apr 2029</span></div></article>
+        <article class="cert-card"><span class="cert-mark">AWS</span><div><h3>AWS Certified AI Practitioner</h3><p>Amazon Web Services</p><span>Apr 2026 – Apr 2029</span></div></article>
+        <article class="cert-card"><span class="cert-mark">ML</span><div><h3>Introduction to Machine Learning</h3><p>NPTEL</p><span>Sep 2025</span></div></article>
+        <article class="cert-card"><span class="cert-mark">IoT</span><div><h3>Introduction to IoT</h3><p>IBM / Coursera</p><span>Date not listed</span></div></article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-panel">
+        <p class="eyebrow">06 / CONTACT</p>
+        <h2>Have an opportunity<br>or idea? <span class="gradient-text">Let's talk.</span></h2>
+        <p>I'm interested in learning, collaborating and exploring software development opportunities.</p>
+        <div class="contact-actions">
+          <!-- Replace the placeholder email and URLs before publishing. -->
+          <a class="button button-primary" href="mailto:ms7922@srmist.edu.in">Email me <span>↗</span></a>
+          <a class="button button-secondary" href="https://github.com/Mahisoanl" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/mahi-sonal-080275277/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+        </div>
+        <p class="contact-reminder"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container"><a class="logo" href="#home">Mahi<span>.</span></a><a href="#home" class="back-top">Back to top ↑</a></footer>
+</body>
+</html>
